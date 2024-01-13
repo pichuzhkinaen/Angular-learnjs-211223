@@ -1,6 +1,6 @@
 import {IProduct} from './product.interface';
 
-export const ProductMock: IProduct = {
+export const productMock: IProduct = {
     // eslint-disable-next-line @typescript-eslint/naming-convention
     _id: '96-planset-dexp-ursus-s290-32-gb-3g-cernyj',
     feedbacksCount: 2,
