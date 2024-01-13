@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import {Component} from '@angular/core';
-import {ProductMock} from '../../../shared/products/product.mock';
+import {productMock} from '../../../shared/products/product.mock';
 
 @Component({
     selector: 'app-card',
@@ -8,7 +8,7 @@ import {ProductMock} from '../../../shared/products/product.mock';
     styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-    readonly product = ProductMock;
+    readonly product = productMock;
 
     buttonClickedBuy(event: MouseEvent) {
         console.log(event);
