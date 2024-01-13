@@ -8,10 +8,12 @@
     <mat-card-content>
         <p>{{ product.name }}</p>
     </mat-card-content>
-    <mat-card-actions>
-        <span mat-button>{{ product.price }} $</span>
-        <button mat-button (click)="buttonClickedBuy($event); $event.stopPropagation()">
-            Купить
-        </button>
-    </mat-card-actions>
+    <div class="example-bottom-wrapper">
+        <span>{{ product.price }} $</span>
+        <mat-card-actions>
+            <button mat-button (click)="buttonClickedBuy($event); $event.stopPropagation()">
+                Купить
+            </button>
+        </mat-card-actions>
+    </div>
 </mat-card>

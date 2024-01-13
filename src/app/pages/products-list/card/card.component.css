@@ -12,6 +12,12 @@
     margin-bottom: 20px;
 }
 
+.example-bottom-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .mdc-card__actions {
     justify-content: center;
 }
