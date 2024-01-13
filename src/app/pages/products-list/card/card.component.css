@@ -1,0 +1,21 @@
+.example-card {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.example-header-image {
+    display: none;
+}
+
+.mdc-card__media {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mdc-card__actions {
+    justify-content: center;
+}
+
+button {
+    margin-left: 20px;
+}
